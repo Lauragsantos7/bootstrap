@@ -17,3 +17,18 @@ Para fazer Download e instalar o servidor e a IDE usada no curso, utilize os lin
 https://www.wampserver.com/en/
 https://www.sublimetext.com/3
 
+
+**Resumo**
+
+Layout - Containers
+
+São os elementos de layout mais básico no Bootstrap e são necessários ao usar o sistema de grid padrão do Framework. Você pode Escolher  Usar fixed-width container  (ou seja, a Propriedade max-width muda em cada breakpoint) ou fluid-width (o que significa que é 100% de largura o tempo todo).
+
+Responsive breakpoints
+
+Uma vez que o Bootstrap é desenvolvido para ser Mobile first, é usado um punhado de  media queries para criar breakpoints sensíveis para nossos layouts e interfaces. Esses breakpoints são principalmente baseados nas larguras mínimas de viewport existentes e nos permitem realizar diversas mudanças.
+
+
+Z-index
+
+Vários componentes do Bootstrap usam o Z-index, Esta propriedade CSS ajuda a controlar o layout fornecendo um terceiro eixo para organizar o conteúdo. 
