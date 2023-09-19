@@ -1,4 +1,5 @@
 import "./App.css";
+import Images from "./images/Images";
 
 function App() {
   return (
@@ -140,7 +141,7 @@ function App() {
       <p> <samp>Este texto deve ser tratado como exemplo</samp>
       </p></p>
       <hr />
-      
+    <Images />
     </>
   );
 }
