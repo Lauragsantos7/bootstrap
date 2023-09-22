@@ -7,6 +7,7 @@ import Alertas from "./components/Alerts";
 import Badges from "./components/images/Badges";
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Badges />
     <Buttons />
     <Cards />
+    <Carousel />
     </>
   );
 }
