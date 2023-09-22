@@ -1,7 +1,7 @@
 # Conteúdo curso de bootstrap UDEMY:
 
 Itens estudados nessa aula:\
-[x] Alertas\
+- [x] Alertas\
 [ ] Botões\
 [ ] Cards\
 [ ] Carrocel de imagens\
