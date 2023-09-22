@@ -2,12 +2,12 @@
 
 Itens estudados nessa aula:\
 - [x] Alertas\
-[ ] Botões\
-[ ] Cards\
-[ ] Carrocel de imagens\
-[ ] Containers\
-[ ] sintaxes básicas de títulos, negrito, itálico, sublinhado...\
-[ ] Tabelas\
+- [x] Botões\
+- [x] Cards\
+- [x] Carrocel de imagens\
+- [x] Containers\
+- [x] sintaxes básicas de títulos, negrito, itálico, sublinhado...\
+- [x] Tabelas\
 
 
  - melhoria do bootstrap 4.0 - mudança de less para saas - compila mais rápido e o sistema de grid recebeu um upgrade para melhoria em dispositivos móveis
