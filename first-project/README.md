@@ -1,4 +1,15 @@
 # Conteúdo curso de bootstrap UDEMY:
+
+Itens estudados nessa aula:\
+[x] Alertas\
+[ ] Botões\
+[ ] Cards\
+[ ] Carrocel de imagens\
+[ ] Containers\
+[ ] sintaxes básicas de títulos, negrito, itálico, sublinhado...\
+[ ] Tabelas\
+
+
  - melhoria do bootstrap 4.0 - mudança de less para saas - compila mais rápido e o sistema de grid recebeu um upgrade para melhoria em dispositivos móveis
 
 Para instalar o Bootstrap 4.0.0 Beta você pode usar as seguinte CDNs:
@@ -32,3 +43,7 @@ Uma vez que o Bootstrap é desenvolvido para ser Mobile first, é usado um punha
 Z-index
 
 Vários componentes do Bootstrap usam o Z-index, Esta propriedade CSS ajuda a controlar o layout fornecendo um terceiro eixo para organizar o conteúdo. 
+
+
+
+
