@@ -19,7 +19,7 @@ function Tables() {
                   <th scope="row">1</th>
                   <td className ="table-danger">Laura</td>
                   <td className ="table-dark">Santos</td>
-                  <td className ="table-success">lauragsantos</td>
+                  <td className ="table-successgi">lauragsantos</td>
                 </tr>
                 <tr>
                   <th scope="row">2</th>
