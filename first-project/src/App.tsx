@@ -3,7 +3,9 @@ import Images from "./components/images/Images";
 import Tables from "./components/Tables"
 import Containers from "./components/Containers"
 import Sintaxes from "./components/Sintaxes";
-import Alertas from "./components/Alertas";
+import Alertas from "./components/Alerts";
+import Badges from "./components/images/Badges";
+import Buttons from "./components/Buttons";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <Images />
     <Tables />
     <Alertas />
+    <Badges />
+    <Buttons />
     </>
   );
 }
