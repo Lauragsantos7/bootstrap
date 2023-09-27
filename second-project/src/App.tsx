@@ -5,6 +5,7 @@ import Dropdowns from './components/Dropdowns'
 import Forms from './components/Forms'
 import InputGroup from './components/Inputs'
 import Jumbotron from './components/Jumbotron'
+import Paginador from './components/Paginador'
 
 
 
@@ -18,6 +19,7 @@ function App() {
      <Forms />
      <InputGroup />
      <Jumbotron />
+     <Paginador />
     </>
   )
 }
