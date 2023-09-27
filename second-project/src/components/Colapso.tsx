@@ -2,7 +2,7 @@ function Colapso() {
   return (
     <>
       <div className="container">
-        <h1>Colapso</h1>
+        <h3>Colapso</h3>
         <p>
           {" "}
           Permite esconder ou mostrar um item usando botão-janela ou sanfona.
