@@ -6,3 +6,6 @@ Matérias estudadas nessa aula:
 
 Popover - ícone flutuando - biblioteaca de terceiros - instalado via cdn no arquivo index.html
 Moda - link de aviso que desce sobre o conteúdo do site
+
+Tooltip - biblioteaca de terceiros - instalado via cdn no arquivo index.html 
+Para legendar botoes e ícones ao passar o mouse

@@ -4,6 +4,7 @@ import Modal from './components/Modal'
 import Navigation from './components/Navigation'
 import Popover from './components/Popover'
 import ProgressBar from './components/ProgressBar'
+import Toooltips from './components/Tooltips'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Modal />
       <Navigation />
       <ProgressBar />
+      <Toooltips />
     </>
   )
 }
