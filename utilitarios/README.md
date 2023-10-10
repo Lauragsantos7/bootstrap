@@ -8,6 +8,8 @@ Conteúdos da aula:
 - [x] Utilitários
 - [x] Screenreaders
 - [x] Dimensionamento
+- [x] Visibilidade
+- [x] Alinhamentos
 
 
 **Screenreaders**

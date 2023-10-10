@@ -48,7 +48,6 @@ function Text() {
         <p className="font-weight-bold">Texto em negrito</p>
         <p className="font-weight-normal">Texto com fonte normal</p>
         <p className="font-italic">Texto em italico</p>
-
         <h3>Alinhamento Vertical</h3>
         <p>
           Você pode facilmente realizar o alinhamento vertical de elementos no
@@ -65,6 +64,17 @@ function Text() {
         <span className="align-bottom">bottom</span>
         <span className="align-text-top">text-top</span>
         <span className="align-text-bottom">text-bottom</span>
+        
+        <h3>Visibilidade</h3>
+        <p>
+          Você pode controlar a visibilidade de um elemento, sem modificar a
+          exibição, com os utilitários de visibilidade. Eles são úteis para
+          ocultar o conteúdo da maioria dos usuários, mas ainda mantendo-os para
+          os leitores de tela. Aplique .visibleou, .invisibleconforme
+          necessário:
+        </p>
+        <div className="visible">Este texto estará visível</div>
+        <div className="invisible">Este texto não estará visível</div>
       </div>
     </>
   );
