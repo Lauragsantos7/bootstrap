@@ -45,15 +45,26 @@ function Text() {
           Lorem ipsum dolor . Ea iste molestiae placeat,possimus minima est
           explicabo aspernatur! Quae, maiores accusamus?
         </p>
-        <p className="font-weight-bold">
-          Texto em negrito
+        <p className="font-weight-bold">Texto em negrito</p>
+        <p className="font-weight-normal">Texto com fonte normal</p>
+        <p className="font-italic">Texto em italico</p>
+
+        <h3>Alinhamento Vertical</h3>
+        <p>
+          Você pode facilmente realizar o alinhamento vertical de elementos no
+          Bootstrap tais como: inline, inline-block, inline-table e table. É
+          importante saber que o alinhamento vertical afeta apenas os elementos
+          inline, inline-block, inline-table e as células da table. As opções
+          disponíveis são: .align-baseline, .align-top, .align-middle,
+          .align-bottom, .align-text-bottom, e .align-text-top, utiliza conforme
+          necessário.
         </p>
-        <p className="font-weight-normal">
-          Texto com fonte normal
-        </p>
-        <p className="font-italic">
-          Texto em italico
-        </p>
+        <span className="align-baseline">baseline</span>
+        <span className="align-top">top</span>
+        <span className="align-middle">middle</span>
+        <span className="align-bottom">bottom</span>
+        <span className="align-text-top">text-top</span>
+        <span className="align-text-bottom">text-bottom</span>
       </div>
     </>
   );
