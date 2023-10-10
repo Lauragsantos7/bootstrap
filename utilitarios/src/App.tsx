@@ -7,6 +7,7 @@ import Incorporation from './components/Incorporation'
 import Position from './components/Position'
 import Sizing from './components/Sizing'
 import Spacing from './components/Spacing'
+import Text from './components/Text'
 import Utils from './components/Utils'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Position />
     <Sizing />
     <Spacing />
+    <Text />
       
     </>
   )
