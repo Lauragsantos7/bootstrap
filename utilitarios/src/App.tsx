@@ -1,5 +1,6 @@
 import './App.css'
 import Clearfix from './components/Clearfix'
+import Collors from './components/Collors'
 import Utils from './components/Utils'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <Utils />
     <Clearfix />
+    <Collors />
       
     </>
   )

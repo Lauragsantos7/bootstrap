@@ -11,7 +11,7 @@ function Clearfix() {
           Exemplo de Botão flutuando para direita
         </button>
       </div>
-      <br />
+      
 
       <h3>3 -Ícone fechar</h3>
       <button type="button" className="close" aria-label="Fechar">
