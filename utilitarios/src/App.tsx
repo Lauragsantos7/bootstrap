@@ -6,6 +6,7 @@ import Float from './components/Float'
 import Incorporation from './components/Incorporation'
 import Position from './components/Position'
 import Sizing from './components/Sizing'
+import Spacing from './components/Spacing'
 import Utils from './components/Utils'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Float />
     <Position />
     <Sizing />
+    <Spacing />
       
     </>
   )
