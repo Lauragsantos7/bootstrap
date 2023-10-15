@@ -7,3 +7,6 @@ Conteúdo estudado na aula:
 - [x] Colapse
 - [x] Dropdowns
 - [x] Forms
+- [x] Inputs
+- [x] Jumbotrom
+- [x] Paginador
