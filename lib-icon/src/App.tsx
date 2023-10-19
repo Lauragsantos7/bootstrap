@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+      <div className="container icon">
+        <img className="icon" src="open-iconic-master/svg/ban.svg" alt="ban" />
+        <img className="icon" src="open-iconic-master/svg/arrow-left.svg" />
+        <img className="icon" src="open-iconic-master/svg/bolt.svg" />
+        <img className="icon" src="open-iconic-master/svg/bluetooth.svg" />
+        <button className="btn btn-secundary">
+          <img className="icon" src="open-iconic-master/svg/chat.svg" />
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <button className="btn btn-primary" aria-hidden="true">
+          <span className="oi oi-battery-full"> </span>
+        </button>
+        <br />
+        <button className="btn btn-primary" aria-hidden="true">
+          <span className="oi oi-battery-empty"> </span>
+        </button>
+        <button className="btn btn-primary" aria-hidden="true">
+          <span className="oi oi-collapse-down"> </span>
+        </button>
+        <button className="btn btn-warning" aria-hidden="true">
+          <span className="oi oi-warning"> Atenção</span>
+        </button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
