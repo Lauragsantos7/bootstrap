@@ -1,7 +1,15 @@
+import { useNavigate, Link } from 'react-router-dom';
 
-import {Link } from "react-router-dom";
 
 function Login() {
+
+  const navigate = useNavigate();
+  
+
+  const redirectToHome = () => {
+    navigate("/home")
+  }
+
   return (
     <>
       <div className="card card-login mx-auto mt-5">
@@ -36,7 +44,7 @@ function Login() {
                 </label>
               </div>
             </div>
-            <button className="btn btn-primary btn-block">Entrar</button>
+            <button type="button" onClick={redirectToHome} className="btn btn-primary btn-block">Entrar</button>
             <div className="text-center">
                 <Link to="/create-account" className="d-block small mt-3">Criar conta </Link>
                 <Link to="/recoverpass" className="d-block small">Esqueceu a senha?</Link>

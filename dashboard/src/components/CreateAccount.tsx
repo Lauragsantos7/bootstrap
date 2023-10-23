@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import { useContext } from 'react';
+import UserContext from '../context/UserContext';
 
 function CreateAccount() {
+
+  const {userData, handleChange} = useContext(UserContext);
+
   return (
     <>
       <div className="card card-register mx-auto mt-5">
@@ -15,6 +20,8 @@ function CreateAccount() {
                 type="text"
                 name="name"
                 id="name"
+                value={userData.name}
+                onChange={handleChange}
               ></input>
             </div>
             <div className="form-group">
@@ -23,8 +30,10 @@ function CreateAccount() {
                 className="form-control"
                 placeholder="Ex.: Av., Rua..."
                 type="text"
-                name="address-street"
+                name="street"
                 id="address-street"
+                value={userData.street}
+                onChange={handleChange}
               ></input>
               <br />
               <div className="form-row">
@@ -33,8 +42,10 @@ function CreateAccount() {
                     className="form-control"
                     placeholder="Número"
                     type="number"
-                    name="address-number"
+                    name="houseNumber"
                     id="address-number"
+                    value={userData.houseNumber}
+                    onChange={handleChange}
                   ></input>
                 </div>
                 <div className="col-md-6">
@@ -42,8 +53,10 @@ function CreateAccount() {
                     className="form-control"
                     placeholder="Complemento"
                     type="text"
-                    name="address-complement"
+                    name="complement"
                     id="address-complement"
+                    value={userData.complement}
+                    onChange={handleChange}
                   ></input>
                 </div>
               </div>
@@ -54,8 +67,10 @@ function CreateAccount() {
                     className="form-control"
                     placeholder="Cidade"
                     type="text"
-                    name="address-city"
+                    name="city"
                     id="address-city"
+                    value={userData.city}
+                    onChange={handleChange}
                   ></input>
                 </div>
                 <div className="col-md-6">
@@ -63,8 +78,10 @@ function CreateAccount() {
                     className="form-control"
                     placeholder="Estado"
                     type="text"
-                    name="address-state"
+                    name="state"
                     id="address-state"
+                    value={userData.state}
+                    onChange={handleChange}
                   ></input>
                 </div>
               </div>
@@ -78,6 +95,8 @@ function CreateAccount() {
                 type="date"
                 name="birthday"
                 id="birthday"
+                value={userData.birthday}
+                onChange={handleChange}
               ></input>
             </div>
 
@@ -89,6 +108,8 @@ function CreateAccount() {
                 type="email"
                 name="email"
                 id="email"
+                value={userData.email}
+                onChange={handleChange}
               ></input>
             </div>
             <div className="form-group form-row">
