@@ -4,7 +4,7 @@ type UserContextType = {
     name: string;
     email: string;
     street: string;
-    houseNumber: number;
+    houseNumber: string;
     complement: string;
     city: string;
     state: string;
@@ -14,16 +14,4 @@ type UserContextType = {
 
 const UserContext = createContext({} as UserContextType);
 
-type UserProviderProps = {
-  children: React.ReactNode;
-};
-
-function UserProvider({ children }: UserProviderProps) {
-    const values = ""
-
-  return <UserContext.Provider value={values}>
-    {children}
-    </UserContext.Provider>;
-}
-
-export default UserProvider;
+export default UserContext;
