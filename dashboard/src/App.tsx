@@ -1,12 +1,21 @@
 import '/bibliotecas/bootstrap/css/bootstrap.min.css'
-import '/bibliotecas/bootstrap/css/bootstrap.min.css'
-import TemplateMaster from './components/TemplateMaster'
+import {Routes, Route} from 'react-router-dom'
+import Login from './components/Login'
+import RecoverPassword from './components/RecoverPassword'
+import CreateAccount from './components/CreateAccount'
+
+
 
 function App() {
 
   return (
     <>
-      <TemplateMaster />
+    <Routes>
+      <Route path="/" element={ <Login /> } />
+      <Route path="/recoverpass" element={ <RecoverPassword /> } />
+      <Route path="/create-account" element={ <CreateAccount /> } />
+    </Routes>
+      
      
     </>
   )

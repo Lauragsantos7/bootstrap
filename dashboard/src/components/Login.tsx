@@ -1,4 +1,7 @@
-function TemplateMaster() {
+
+import {Link } from "react-router-dom";
+
+function Login() {
   return (
     <>
       <div className="card card-login mx-auto mt-5">
@@ -35,8 +38,8 @@ function TemplateMaster() {
             </div>
             <button className="btn btn-primary btn-block">Entrar</button>
             <div className="text-center">
-                <a href="#" className="d-block small mt-3">Criar conta</a>
-                <a href="#" className="d-block small">Esqueceu a senha?</a>
+                <Link to="/create-account" className="d-block small mt-3">Criar conta </Link>
+                <Link to="/recoverpass" className="d-block small">Esqueceu a senha?</Link>
             </div>
           </form>
         </div>
@@ -45,4 +48,4 @@ function TemplateMaster() {
   );
 }
 
-export default TemplateMaster;
+export default Login;
